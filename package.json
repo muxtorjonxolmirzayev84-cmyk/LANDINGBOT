@@ -7,6 +7,7 @@
   "scripts": {
     "setup": "npm install && npm install --prefix miniapp && npm install --prefix admin",
     "start": "node src/index.js",
+    "build": "npm ci --include=dev --prefix miniapp && npm run build --prefix miniapp && npm ci --include=dev --prefix admin && npm run build --prefix admin",
     "dev": "node --watch src/index.js",
     "miniapp": "npm run dev --prefix miniapp",
     "admin": "npm run dev --prefix admin",
