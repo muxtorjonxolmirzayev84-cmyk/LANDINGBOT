@@ -1,0 +1,60 @@
+// Pizza yetkazib berish — ma'lumotlar bazasi sxemasi (Prisma + PostgreSQL)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  KUTILMOQDA
+  YETKAZILDI
+}
+
+// Mijoz
+model User {
+  id         Int      @id @default(autoincrement())
+  telegramId String   @unique
+  name       String?
+  username   String?
+  phone      String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  orders     Order[]
+}
+
+// Pizza (mahsulot)
+model Product {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String   @default("")
+  ingredients String[] @default([])
+  imageUrl    String   @default("")
+  oldPrice    Int?
+  newPrice    Int
+  category    String   @default("Boshqa")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Buyurtma
+model Order {
+  id         Int         @id @default(autoincrement())
+  userId     Int
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items      Json
+  totalPrice Int
+  phone      String
+  location   String
+  latitude   Float?
+  longitude  Float?
+  comment    String?
+  status     OrderStatus @default(KUTILMOQDA)
+  createdAt  DateTime    @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+}

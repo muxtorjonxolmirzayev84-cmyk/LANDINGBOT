@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T21:37:26+00:00",
+  "title": "Design System: XMR Pizza",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Counter White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#454545",
+          "#666666",
+          "#898989",
+          "#aeaeae",
+          "#d1d1d1",
+          "#eeeeee"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Oven Ink",
+        "canonical": "#141414",
+        "oklch": "oklch(19.1% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#454545",
+          "#666666",
+          "#898989",
+          "#aeaeae",
+          "#d1d1d1",
+          "#eeeeee"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#3d3d43",
+        "oklch": "oklch(36.2% 0.010 285.9)",
+        "tonalRamp": [
+          "#0b0b0f",
+          "#26262b",
+          "#44444a",
+          "#65656c",
+          "#88888f",
+          "#adadb4",
+          "#d0d0d8",
+          "#eeeef5"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#6b6b73",
+        "oklch": "oklch(53.1% 0.012 286.0)",
+        "tonalRamp": [
+          "#0b0a10",
+          "#26262c",
+          "#44444c",
+          "#65656d",
+          "#888891",
+          "#adadb6",
+          "#d0d0d9",
+          "#ededf7"
+        ]
+      },
+      "nav-idle": {
+        "role": "neutral",
+        "displayName": "Nav Slate",
+        "canonical": "#74747b",
+        "oklch": "oklch(56.1% 0.011 286.1)",
+        "tonalRamp": [
+          "#0b0b10",
+          "#26262c",
+          "#44444b",
+          "#65656c",
+          "#88888f",
+          "#adadb5",
+          "#d0d0d8",
+          "#eeeef6"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#ececf0",
+        "oklch": "oklch(94.4% 0.005 286.3)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262629",
+          "#454548",
+          "#666669",
+          "#89898c",
+          "#adadb1",
+          "#d0d0d4",
+          "#eeeef2"
+        ]
+      },
+      "line-admin": {
+        "role": "neutral",
+        "displayName": "Admin Hairline",
+        "canonical": "#e8e8ec",
+        "oklch": "oklch(93.2% 0.005 286.3)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262629",
+          "#454548",
+          "#666669",
+          "#89898c",
+          "#adadb1",
+          "#d0d0d4",
+          "#eeeef2"
+        ]
+      },
+      "line-soft": {
+        "role": "neutral",
+        "displayName": "Soft Hairline",
+        "canonical": "#f0f0f3",
+        "oklch": "oklch(95.6% 0.004 286.3)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262628",
+          "#454547",
+          "#666668",
+          "#89898b",
+          "#adadb0",
+          "#d1d0d3",
+          "#eeeef1"
+        ]
+      },
+      "well": {
+        "role": "neutral",
+        "displayName": "Plate Well",
+        "canonical": "#f5f5f7",
+        "oklch": "oklch(97.1% 0.003 286.4)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262628",
+          "#454546",
+          "#666667",
+          "#89898b",
+          "#aeaeaf",
+          "#d1d1d3",
+          "#eeeef0"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Sidebar Mist",
+        "canonical": "#f7f7f9",
+        "oklch": "oklch(97.7% 0.003 286.4)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262628",
+          "#454546",
+          "#666667",
+          "#89898b",
+          "#aeaeaf",
+          "#d1d1d3",
+          "#eeeef0"
+        ]
+      },
+      "indicator-off": {
+        "role": "neutral",
+        "displayName": "Indicator Off",
+        "canonical": "#d9d9de",
+        "oklch": "oklch(88.7% 0.007 286.3)",
+        "tonalRamp": [
+          "#0b0b0e",
+          "#26262a",
+          "#454449",
+          "#66666a",
+          "#89898d",
+          "#adadb2",
+          "#d0d0d5",
+          "#eeeef3"
+        ]
+      },
+      "control-off": {
+        "role": "neutral",
+        "displayName": "Control Off",
+        "canonical": "#cfcfd5",
+        "oklch": "oklch(85.6% 0.008 286.2)",
+        "tonalRamp": [
+          "#0b0b0f",
+          "#26262a",
+          "#444449",
+          "#65656b",
+          "#88888e",
+          "#adadb3",
+          "#d0d0d6",
+          "#eeeef4"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Tomato Red",
+        "canonical": "#d92d20",
+        "oklch": "oklch(57.6% 0.209 29.5)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4f0100",
+          "#860200",
+          "#c00701",
+          "#ed4333",
+          "#ff8574",
+          "#febfb5",
+          "#ffe9e5"
+        ]
+      },
+      "accent-press": {
+        "role": "primary",
+        "displayName": "Pressed Tomato",
+        "canonical": "#b8251a",
+        "oklch": "oklch(50.9% 0.184 29.4)",
+        "tonalRamp": [
+          "#1f0000",
+          "#4f0000",
+          "#860301",
+          "#b8251a",
+          "#e35141",
+          "#ff8674",
+          "#febfb5",
+          "#ffe9e5"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Tomato Blush",
+        "canonical": "#fdeceb",
+        "oklch": "oklch(95.6% 0.019 21.6)",
+        "tonalRamp": [
+          "#120808",
+          "#2f2322",
+          "#4f4141",
+          "#706261",
+          "#948584",
+          "#baaaa9",
+          "#ddcccc",
+          "#fbeae9"
+        ]
+      },
+      "success": {
+        "role": "status",
+        "displayName": "Basil Green",
+        "canonical": "#15803d",
+        "oklch": "oklch(52.7% 0.137 150.1)",
+        "tonalRamp": [
+          "#001003",
+          "#013011",
+          "#005423",
+          "#097b38",
+          "#3fa05b",
+          "#67c67f",
+          "#8beaa1",
+          "#c7ffd1"
+        ]
+      },
+      "success-soft": {
+        "role": "status",
+        "displayName": "Basil Wash",
+        "canonical": "#f0faf3",
+        "oklch": "oklch(95.9% 0.021 156.8)",
+        "tonalRamp": [
+          "#050e08",
+          "#1e2a22",
+          "#3c4941",
+          "#5d6a61",
+          "#808d84",
+          "#a4b2a9",
+          "#c7d5cc",
+          "#e4f3e9"
+        ]
+      },
+      "pending": {
+        "role": "status",
+        "displayName": "Crust Amber",
+        "canonical": "#8a5300",
+        "oklch": "oklch(49.4% 0.109 66.9)",
+        "tonalRamp": [
+          "#140800",
+          "#392000",
+          "#633a02",
+          "#8f580a",
+          "#b57b39",
+          "#dca05f",
+          "#fec488",
+          "#feebd8"
+        ]
+      },
+      "pending-soft": {
+        "role": "status",
+        "displayName": "Crust Wash",
+        "canonical": "#fff3df",
+        "oklch": "oklch(96.8% 0.029 80.7)",
+        "tonalRamp": [
+          "#110a00",
+          "#2e2516",
+          "#4d4433",
+          "#6f6553",
+          "#928876",
+          "#b8ac9a",
+          "#dbcfbc",
+          "#f9edd9"
+        ]
+      },
+      "fresh": {
+        "role": "status",
+        "displayName": "Fresh-Row Cream",
+        "canonical": "#fff8e6",
+        "oklch": "oklch(98.0% 0.025 89.2)",
+        "tonalRamp": [
+          "#0f0b02",
+          "#2b2618",
+          "#4a4536",
+          "#6c6656",
+          "#8f8978",
+          "#b4ae9d",
+          "#d7d1bf",
+          "#f5eedc"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles, the Home greeting, onboarding headlines."
+      },
+      "headline-sm": {
+        "displayName": "Headline Small",
+        "purpose": "Product sheet title, order-success heading, admin page titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section titles such as Ommabop."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Product card names, cart item names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Mini App running text; sheet descriptions cap at 65ch."
+      },
+      "body-admin": {
+        "displayName": "Body Admin",
+        "purpose": "Admin running text and table cells."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button text; 16px on 54px CTAs, 17px on onboarding, 13px small."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form field labels in Graphite."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Current price in Tomato Red, tabular numerals."
+      },
+      "price-lg": {
+        "displayName": "Price Large",
+        "purpose": "Current price on the product sheet."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Status pills and admin badges."
+      },
+      "nav-label": {
+        "displayName": "Nav Label",
+        "purpose": "Bottom-nav tab labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 6px 24px rgba(20, 20, 20, 0.08)",
+        "purpose": "Round icon buttons floating over imagery (sheet close). CSS var --float in the Mini App."
+      },
+      {
+        "name": "panel-lift",
+        "value": "0 8px 28px rgba(20, 20, 20, 0.06)",
+        "purpose": "Sticky admin product editor."
+      },
+      {
+        "name": "segment-lift",
+        "value": "0 1px 2px rgba(20, 20, 20, 0.08)",
+        "purpose": "Selected admin filter tab."
+      },
+      {
+        "name": "side-link-lift",
+        "value": "0 1px 2px rgba(20, 20, 20, 0.06), 0 0 0 1px #e8e8ec",
+        "purpose": "Active admin side link tile."
+      },
+      {
+        "name": "knob",
+        "value": "0 2px 4px rgba(0, 0, 0, 0.2)",
+        "purpose": "Switch thumb."
+      },
+      {
+        "name": "focus-halo-admin",
+        "value": "0 0 0 3px rgba(20, 20, 20, 0.06)",
+        "purpose": "Admin input focus, alongside the ink border."
+      },
+      {
+        "name": "illustration-lift",
+        "value": "drop-shadow(0 10px 18px rgba(120, 50, 20, 0.16))",
+        "purpose": "filter on pizza art in the hero and sheet (sheet uses 0 12px 20px). Artwork treatment, not chrome."
+      },
+      {
+        "name": "story-illustration-lift",
+        "value": "drop-shadow(0 16px 26px rgba(0, 0, 0, 0.28))",
+        "purpose": "filter on art over colored story backdrops."
+      },
+      {
+        "name": "scrim",
+        "value": "rgba(10, 10, 10, 0.45)",
+        "purpose": "Bottom-sheet backdrop."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #d92d20; outline-offset: 2px",
+        "purpose": "Global :focus-visible in both apps."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "purpose": "Shared ease-out for every state transition (CSS var --ease)."
+      },
+      {
+        "name": "press",
+        "value": "120ms",
+        "purpose": "Button scale 0.98 / add-button scale 0.92 on press."
+      },
+      {
+        "name": "state",
+        "value": "150-180ms",
+        "purpose": "Color and background transitions on chips, buttons, nav, card press."
+      },
+      {
+        "name": "indicator",
+        "value": "200-220ms",
+        "purpose": "Switch thumb, onboarding dot stretch, toast and story fade-in."
+      },
+      {
+        "name": "badge-bump",
+        "value": "260ms",
+        "purpose": "Cart badge scales to 1.25 on each count change."
+      },
+      {
+        "name": "scrim-fade",
+        "value": "260ms",
+        "purpose": "Sheet backdrop opacity."
+      },
+      {
+        "name": "sheet-slide",
+        "value": "320ms",
+        "purpose": "Bottom sheet translateY(100%) to 0."
+      },
+      {
+        "name": "success-pop",
+        "value": "480ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one authored moment: success disc pops from 0.5; check draws over 420ms after a 220ms delay."
+      },
+      {
+        "name": "skeleton-shimmer",
+        "value": "1.2s linear infinite",
+        "purpose": "Loading skeleton gradient sweep."
+      },
+      {
+        "name": "toast-dwell",
+        "value": "2200ms",
+        "purpose": "Toast auto-dismiss."
+      },
+      {
+        "name": "story-duration",
+        "value": "5000ms",
+        "purpose": "Per-story progress bar; pauses on press."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Animations and transitions collapse to 0.01ms (story bar excepted in the Mini App)."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "miniapp-max",
+        "value": "520px",
+        "purpose": "Mini App column, sheet, nav and checkout bar max width."
+      },
+      {
+        "name": "admin-editor-stack",
+        "value": "1180px",
+        "purpose": "At or below, the product editor stacks under the table."
+      },
+      {
+        "name": "admin-compact",
+        "value": "820px",
+        "purpose": "At or below, the sidebar becomes a top bar, stats go 2-up, page padding 20px 16px."
+      }
+    ],
+    "contentColors": {
+      "storyBackdrops": [
+        "#C9281D",
+        "#2B2B30",
+        "#9A5800",
+        "#2F6B3A",
+        "#8E1F17"
+      ],
+      "note": "Per-story full-bleed backdrops set in miniapp/src/data/content.js; content, not tokens. Each holds white text at 4.5:1 or better."
+    },
+    "sources": {
+      "miniapp": "miniapp/src/styles.css (:root)",
+      "admin": "admin/src/styles.css (:root; --line maps to line-admin, --r-card 14px, --r-control 10px)",
+      "font": "@fontsource/manrope 400/600/700/800, imported in miniapp/src/main.jsx and admin/src/main.jsx"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Tomato fill for the commit step toward an order: continue, add to cart, place order, save.",
+      "html": "<button class=\"ds-btn-primary\">Savatchaga qo'shish — 85 000 so'm</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; padding: 0 20px; border: 0; border-radius: var(--r-control, 12px); background: var(--accent, #d92d20); color: #fff; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); font-weight: 700; font-size: 15px; white-space: nowrap; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-btn-primary:hover { background: var(--accent-press, #b8251a); } .ds-btn-primary:active { background: var(--accent-press, #b8251a); transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.45; cursor: default; }"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Near-black fill for entry and utility actions: the hero's open-menu, retry, order again.",
+      "html": "<button class=\"ds-btn-ink\">Menyuni ochish <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-ink { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; padding: 0 20px; border: 0; border-radius: var(--r-control, 12px); background: var(--ink, #141414); color: #fff; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); font-weight: 700; font-size: 15px; white-space: nowrap; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-btn-ink:hover { background: #2a2a2a; } .ds-btn-ink:active { transform: scale(0.98); } .ds-btn-ink:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; }"
+    },
+    {
+      "name": "Soft Button",
+      "kind": "button",
+      "refersTo": "button-soft",
+      "description": "Well-filled secondary action, shown here in its small size as on the order card's reorder.",
+      "html": "<button class=\"ds-btn-soft\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 1 0 3-6.7L3 8\"/><path d=\"M3 3v5h5\"/></svg> Yana shundan buyurtma qilish</button>",
+      "css": ".ds-btn-soft { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 36px; padding: 0 12px; border: 0; border-radius: 10px; background: var(--well, #f5f5f7); color: var(--ink, #141414); font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); font-weight: 700; font-size: 13px; white-space: nowrap; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-btn-soft:hover, .ds-btn-soft:active { background: var(--line, #ececf0); } .ds-btn-soft:active { transform: scale(0.98); } .ds-btn-soft:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; }"
+    },
+    {
+      "name": "Admin Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost-admin",
+      "description": "Admin secondary: white, hairline border, Graphite text; used for row actions and refresh.",
+      "html": "<button class=\"ds-btn-ghost\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Yetkazildi deb belgilash</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 40px; padding: 0 16px; border: 1px solid #e8e8ec; border-radius: 10px; background: #fff; color: var(--ink-2, #3d3d43); font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); font-weight: 700; font-size: 14px; white-space: nowrap; cursor: pointer; transition: background-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 160ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-btn-ghost:hover { background: var(--well, #f5f5f7); border-color: #dcdce1; } .ds-btn-ghost:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; }"
+    },
+    {
+      "name": "Category Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill filters on the well; the active chip fills Tomato.",
+      "html": "<div class=\"ds-chips\" role=\"tablist\"><button class=\"ds-chip is-active\" role=\"tab\" aria-selected=\"true\">Barchasi</button><button class=\"ds-chip\" role=\"tab\">Klassik</button><button class=\"ds-chip\" role=\"tab\">Go'shtli</button><button class=\"ds-chip\" role=\"tab\">Milliy</button></div>",
+      "css": ".ds-chips { display: flex; gap: 8px; flex-wrap: wrap; } .ds-chip { height: 36px; padding: 0 16px; border: 0; border-radius: 18px; background: var(--well, #f5f5f7); color: var(--ink-2, #3d3d43); font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); font-weight: 700; font-size: 14px; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), color 180ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-chip:hover { background: var(--line, #ececf0); } .ds-chip.is-active { background: var(--accent, #d92d20); color: #fff; } .ds-chip:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; }"
+    },
+    {
+      "name": "Product Card: plus to stepper",
+      "kind": "card",
+      "refersTo": "product-media",
+      "description": "Signature: the well-plated card with Tomato price; the plus becomes an inline − n + stepper once in the cart.",
+      "html": "<div class=\"ds-pc-grid\"><article class=\"ds-pc\"><div class=\"ds-pc-media\"><svg class=\"ds-pc-art\" viewBox=\"0 0 100 100\" aria-hidden=\"true\"><circle cx=\"50\" cy=\"50\" r=\"46\" fill=\"#e7ad5f\"/><circle cx=\"50\" cy=\"50\" r=\"39\" fill=\"#cf3b25\"/><circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"#f6d78a\"/><circle cx=\"37\" cy=\"36\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"60\" cy=\"33\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"66\" cy=\"55\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"44\" cy=\"58\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"52\" cy=\"72\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"30\" cy=\"54\" r=\"5\" fill=\"#c2311f\"/></svg></div><h3 class=\"ds-pc-name\">Peperoni</h3><p class=\"ds-pc-desc\">Achchiqroq peperoni kolbasasi va qalin mozzarella.</p><div class=\"ds-pc-bottom\"><div class=\"ds-pc-prices\"><s class=\"ds-pc-old\">89 000 so'm</s><span class=\"ds-pc-new\">69 000 so'm</span></div><button class=\"ds-pc-add\" aria-label=\"Savatchaga qo'shish\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div></article><article class=\"ds-pc\"><div class=\"ds-pc-media\"><svg class=\"ds-pc-art\" viewBox=\"0 0 100 100\" aria-hidden=\"true\"><circle cx=\"50\" cy=\"50\" r=\"46\" fill=\"#e7ad5f\"/><circle cx=\"50\" cy=\"50\" r=\"39\" fill=\"#cf3b25\"/><circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"#f6d78a\"/><circle cx=\"37\" cy=\"36\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"60\" cy=\"33\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"66\" cy=\"55\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"44\" cy=\"58\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"52\" cy=\"72\" r=\"6\" fill=\"#c2311f\"/><circle cx=\"30\" cy=\"54\" r=\"5\" fill=\"#c2311f\"/></svg></div><h3 class=\"ds-pc-name\">Margarita</h3><p class=\"ds-pc-desc\">Klassik italyan pizzasi: pomidor sousi, mozzarella.</p><div class=\"ds-pc-bottom is-in-cart\"><div class=\"ds-pc-prices\"><span class=\"ds-pc-new\">59 000 so'm</span></div><div class=\"ds-stepper\"><button aria-label=\"Kamaytirish\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/></svg></button><span>1</span><button aria-label=\"Ko'paytirish\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div></div></article></div>",
+      "css": ".ds-pc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 168px)); gap: 16px 12px; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); color: var(--ink, #141414); } .ds-pc { display: flex; flex-direction: column; min-width: 0; } .ds-pc-media { aspect-ratio: 1; background: var(--well, #f5f5f7); border-radius: var(--r-card, 16px); display: grid; place-items: center; transition: transform 150ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-pc-media:active { transform: scale(0.98); } .ds-pc-art { width: 86%; height: 86%; filter: drop-shadow(0 10px 18px rgba(120, 50, 20, 0.16)); } .ds-pc-name { margin: 10px 0 0; font-size: 15px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-pc-desc { margin: 2px 0 0; font-size: 13px; line-height: 1.35; color: var(--muted, #6b6b73); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; } .ds-pc-bottom { display: flex; align-items: flex-end; justify-content: space-between; gap: 6px; margin-top: 4px; min-height: 40px; } .ds-pc-bottom.is-in-cart { flex-direction: column; align-items: stretch; gap: 8px; } .ds-pc-prices { display: flex; flex-direction: column; font-variant-numeric: tabular-nums; } .ds-pc-old { font-size: 12px; color: var(--muted, #6b6b73); } .ds-pc-new { color: var(--accent, #d92d20); font-weight: 800; font-size: 15px; white-space: nowrap; } .ds-pc-add { width: 40px; height: 40px; border: 0; border-radius: var(--r-control, 12px); background: var(--well, #f5f5f7); color: var(--ink, #141414); display: grid; place-items: center; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), color 180ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 120ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-pc-add:hover { background: var(--line, #ececf0); } .ds-pc-add:active { transform: scale(0.92); background: var(--accent, #d92d20); color: #fff; } .ds-pc-add:focus-visible, .ds-stepper button:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: 2px; } .ds-stepper { display: flex; align-items: center; justify-content: space-between; gap: 2px; padding: 2px; background: var(--well, #f5f5f7); border-radius: var(--r-control, 12px); font-variant-numeric: tabular-nums; } .ds-stepper button { width: 40px; height: 36px; border: 0; border-radius: 9px; background: none; color: var(--ink, #141414); display: grid; place-items: center; cursor: pointer; transition: background-color 150ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-stepper button:active { background: #fff; } .ds-stepper span { min-width: 18px; text-align: center; font-weight: 800; font-size: 14px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Checkout field: white, 1.5px hairline, ink border on focus, Tomato border and message on error.",
+      "html": "<div class=\"ds-field-stack\"><label class=\"ds-field\"><span>Telefon raqam</span><input type=\"tel\" placeholder=\"+998 90 123 45 67\"></label><label class=\"ds-field is-error\"><span>Manzil</span><input type=\"text\" placeholder=\"Ko'cha, uy, xonadon\"><small>Manzilni kiriting</small></label></div>",
+      "css": ".ds-field-stack { display: grid; gap: 14px; max-width: 340px; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); } .ds-field { display: grid; gap: 6px; } .ds-field > span { font-size: 13px; font-weight: 700; color: var(--ink-2, #3d3d43); } .ds-field input { width: 100%; box-sizing: border-box; border: 1.5px solid var(--line, #ececf0); background: #fff; border-radius: var(--r-control, 12px); padding: 13px 14px; font: inherit; font-size: 16px; color: var(--ink, #141414); caret-color: var(--accent, #d92d20); outline: none; transition: border-color 180ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-field input::placeholder { color: #6b6b73; } .ds-field input:hover { border-color: #dcdce1; } .ds-field input:focus { border-color: var(--ink, #141414); } .ds-field.is-error input { border-color: var(--accent, #d92d20); } .ds-field small { color: var(--accent, #d92d20); font-size: 13px; font-weight: 600; }"
+    },
+    {
+      "name": "Bottom Navigation",
+      "kind": "nav",
+      "refersTo": "bottom-nav",
+      "description": "Four-tab bar; active tab Tomato with thicker stroke; live cart badge with white ring.",
+      "html": "<nav class=\"ds-nav\"><button class=\"ds-nav-item\"><span class=\"ds-nav-icon\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 10.5 12 3l9 7.5\"/><path d=\"M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5\"/></svg></span><span class=\"ds-nav-label\">Bosh sahifa</span></button><button class=\"ds-nav-item is-active\" aria-current=\"page\"><span class=\"ds-nav-icon\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 6.5a19 19 0 0 1 17 0L12 21.5Z\"/><path d=\"M5.4 9.6a15 15 0 0 1 13.2 0\"/><circle cx=\"10\" cy=\"12.5\" r=\"1.1\"/><circle cx=\"14\" cy=\"13\" r=\"1.1\"/><circle cx=\"12\" cy=\"16.6\" r=\"1.1\"/></svg></span><span class=\"ds-nav-label\">Katalog</span></button><button class=\"ds-nav-item\"><span class=\"ds-nav-icon\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"20\" r=\"1.4\"/><circle cx=\"18\" cy=\"20\" r=\"1.4\"/><path d=\"M2.5 3H5l2.2 11.2a2 2 0 0 0 2 1.6h8.3a2 2 0 0 0 2-1.5L21 7H6\"/></svg><span class=\"ds-nav-badge\">2</span></span><span class=\"ds-nav-label\">Savatcha</span></button><button class=\"ds-nav-item\"><span class=\"ds-nav-icon\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 21a8 8 0 0 1 16 0\"/></svg></span><span class=\"ds-nav-label\">Profil</span></button></nav>",
+      "css": ".ds-nav { display: flex; height: 64px; max-width: 390px; background: #fff; border-top: 1px solid var(--line, #ececf0); font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); } .ds-nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border: 0; background: none; color: #74747b; cursor: pointer; transition: color 180ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-nav-item:hover { color: var(--ink-2, #3d3d43); } .ds-nav-item.is-active { color: var(--accent, #d92d20); } .ds-nav-item:focus-visible { outline: 2px solid var(--accent, #d92d20); outline-offset: -2px; border-radius: 6px; } .ds-nav-icon { position: relative; display: grid; place-items: center; } .ds-nav-label { font-size: 11px; font-weight: 700; } .ds-nav-badge { position: absolute; top: -6px; right: -10px; min-width: 18px; height: 18px; padding: 0 5px; box-sizing: border-box; border-radius: 9px; border: 2px solid #fff; background: var(--accent, #d92d20); color: #fff; font-size: 11px; font-weight: 800; display: grid; place-items: center; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Status Pills",
+      "kind": "chip",
+      "refersTo": "status-pending",
+      "description": "Order status: amber on wash for pending, green on wash for delivered; nothing else uses these hues.",
+      "html": "<div class=\"ds-status-row\"><span class=\"ds-status is-pending\">Kutilmoqda</span><span class=\"ds-status is-done\">Yetkazildi</span></div>",
+      "css": ".ds-status-row { display: flex; gap: 8px; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); } .ds-status { font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: 20px; white-space: nowrap; } .ds-status.is-pending { background: var(--pending-soft, #fff3df); color: var(--pending, #8a5300); } .ds-status.is-done { background: var(--success-soft, #f0faf3); color: var(--success, #15803d); }"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Top-center confirmation: ink for info, Tomato for errors; slides down 8px and fades in.",
+      "html": "<div class=\"ds-toast-stack\"><div class=\"ds-toast\" role=\"status\">Margarita savatchaga qo'shildi</div><div class=\"ds-toast is-error\" role=\"status\">Telefon raqamini kiriting</div></div>",
+      "css": ".ds-toast-stack { display: grid; gap: 10px; justify-items: center; font-family: var(--font, 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif); } .ds-toast { width: max-content; max-width: 100%; background: var(--ink, #141414); color: #fff; padding: 11px 16px; border-radius: var(--r-control, 12px); font-size: 14px; font-weight: 600; text-align: center; animation: ds-toast-in 200ms cubic-bezier(0.2, 0.8, 0.2, 1); } .ds-toast.is-error { background: var(--accent, #d92d20); } @keyframes ds-toast-in { from { opacity: 0; transform: translateY(-8px); } } @media (prefers-reduced-motion: reduce) { .ds-toast { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Clean Counter",
+    "overview": "XMR Pizza looks like the counter of a well-run pizzeria: a white surface, each pizza on a grey plate, and one tomato red that marks everything you can act on or pay. It plays the food-delivery category standard straight, with Dodo Pizza and Uzum Tezkor as the bar, so a hungry customer recognizes every control on sight and reaches a confirmed order in under a minute. The menu and its prices lead. No decoration competes with them.\n\nThe Mini App is one centered column, 520px at most, at phone density: 16px gutters, 28px between sections, a two-column product grid, edge-bleeding horizontal rows for stories, popular items and category chips, and a fixed four-tab bar. The Admin Panel is the same world at desktop density. It has a cool-grey sidebar, a bordered stat strip, segmented filter tabs and a bordered table, with radii 2px smaller and body type at 14px. Both apps share one family (Manrope), one accent and the same two status colors.\n\nDepth is mostly flat. Hairlines and the grey well separate things, and a shadow appears only on a layer that floats: the round close button over the sheet image, the sticky product editor, the selected segment. Motion is quick and eases out (120 to 320ms), with one authored moment: the check that draws itself when an order succeeds.",
+    "keyCharacteristics": [
+      "White ground, near-black ink, a single tomato-red accent for action, price, selection and error.",
+      "Food always sits on the grey well (#f5f5f7) at 16px radius.",
+      "Manrope only, with headings at 800 and tight tracking and every price in tabular numerals.",
+      "16px cards and sheets, 12px controls, and pills only for chips, status and counts.",
+      "Hairlines separate. Shadows only lift floating layers.",
+      "Signature interaction: the card's plus becomes an inline − n + stepper once the pizza is in the cart, and the cart badge counts live."
+    ],
+    "rules": [
+      {
+        "name": "The Red Means Act Rule",
+        "body": "Tomato red marks action, price, selection and error. Its one ornamental use is the 6px dot on ingredient lists. Red never colors a heading or fills a UI panel. Story backdrops are content, as noted above.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Colors Stay in Their Lane Rule",
+        "body": "Basil green means delivered or succeeded. Crust amber means waiting. Neither ever decorates UI chrome.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plate Rule",
+        "body": "Every food image sits on the Plate Well, never directly on white and never on a tint.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Every price, quantity, count, ID and time uses tabular numerals. Prices are always formatted as \"59 000 so'm\", with a space between thousands and the currency after the number.",
+        "section": "typography"
+      },
+      {
+        "name": "The Heavy Heading Rule",
+        "body": "Headings are 800 and tracked tight: -0.02em at 22px and above, -0.01em at 16 to 18px. Body copy stays at 400 and labels at 600 to 700. No other weights are loaded.",
+        "section": "typography"
+      },
+      {
+        "name": "The Borders Separate Rule",
+        "body": "Containment is drawn with a hairline or the well. A shadow means the layer floats or has been lifted by selection. Cards, the stat strip and tables carry no shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every food image on the Plate Well (#f5f5f7) at 16px radius, with the image filling about 86% of the well.",
+      "Do show the current price in Tomato at 800 with tabular numerals. Show a struck-through Slate old price above or beside it only when a real old price exists.",
+      "Do turn the add button into the inline − n + stepper once the item is in the cart, and keep the cart badge counting live.",
+      "Do separate with 1px hairlines and the well. Keep shadows for floating or selected layers.",
+      "Do keep state transitions at 120 to 320ms on cubic-bezier(0.2, 0.8, 0.2, 1), and keep the reduced-motion override that flattens animations.",
+      "Do show toasts at the top, ink for information and Tomato for errors.",
+      "Do draw icons as SVG on a 24px grid with a 2px round stroke.",
+      "Do step the admin down to desktop density (14px body, 40px controls, 14px and 10px radii) instead of inventing a second look."
+    ],
+    "donts": [
+      "Don't add discount badges such as \"-20%\". The struck-through old price is the only discount signal.",
+      "Don't use green or amber in UI chrome for anything other than delivered or success and pending.",
+      "Don't add a second accent hue, glass or blur, or any gradient beyond the loading-skeleton shimmer.",
+      "Don't add rating stars, eyebrow badges, emoji standing in for icons, or spinning food.",
+      "Don't shape buttons as pills. Pills are for chips, status and counts.",
+      "Don't introduce a second typeface or any weight outside 400, 600, 700 and 800.",
+      "Don't put a shadow on a card, the stat strip or a table to make it \"pop\"."
+    ]
+  }
+}

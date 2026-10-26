@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+env.txt
+public/uploads/*
+!public/uploads/.gitkeep
+*.log
+cloudflared.exe
+tunnel-url.txt
+prisma/.catalog-v*
+*.exe
